@@ -1,0 +1,211 @@
+html{
+    font-family: sans-serif;
+}
+
+body{
+   padding: 0px 10px 0px 10px;
+   background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+    overflow-x: hidden;
+}
+header  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 0.7rem;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+padding: 2rem 12rem 2rem 12rem;
+    background-color: #13183F;
+  margin: 5rem -12rem -2rem -12rem;
+    
+
+
+}
+
+.button {
+
+    background: #13183F;
+    border-radius: 28px;   
+
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 28px;
+width: 9rem;
+height:3.1rem;
+color: #FFFFFF;
+cursor: pointer;
+}
+button:hover{
+   
+        background: #c23d7d;
+        color: white;
+      }
+    
+
+  .red {
+    background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+}
+.start {
+   border: none;
+    margin-top: 25px;
+    width: 11rem;
+    height: 3.6rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 31.5px;
+}
+.header{
+justify-content: left;
+text-align: left;
+
+font-style: normal;
+font-weight: 800;
+font-size: 23px;
+line-height: 50px;
+margin-bottom:-11px;
+color: #13183F;
+}
+#women_img{
+    position: relative;
+    margin-left: -27px;
+    padding: 0;
+}
+.suggestion{
+padding: 1px;
+    padding-left:25px;
+
+
+text-align: left;
+  
+font-style: normal;
+font-weight: 800;
+font-size: 33px;
+line-height: 32px;
+color: #FFFFFF;
+background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+border-radius: 10px;
+
+
+}
+
+.topic{
+    padding-top: 2rem;
+    padding: 1.7rem;
+
+box-shadow: 0px 25px 50px #0c155d1f;
+border-radius: 10px;
+ 
+    margin-top: 2.8rem;
+}
+.icon{
+ position: absolute;
+ margin-top: -1.7rem;
+    margin-left: 1.7rem;
+}
+
+
+h3{
+    font-weight: 700;
+    font-size: 28px;
+ 
+    line-height: 5px;
+    }
+    .topic_det{
+    
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #83869A;
+    }
+.start_course_btn {
+    font-style: normal;
+    background: none;
+    border:none;
+   color: #F74780;
+   font-weight: 700;
+   font-size: 22px;
+   font-family: 'Open Sans';
+}
+.start_course_btn:hover{
+    opacity: 80%;
+    color: #F74780;
+    background: none;
+    
+}
+
+.info_about {
+   
+font-style: normal;
+font-weight: 500;
+font-size:19px;
+line-height: 26px;
+color: #83869A;
+}
+
+
+
+@media screen and (min-width: 1200px) {
+  body{
+    overflow-x:hidden;
+   
+    padding: 0px 130px 0px 130px;
+  }
+
+    .women_img{
+     
+        position: absolute;
+ max-width: 55rem;
+left: 55rem;
+top: -11rem;
+    }
+   
+    .suggestion {
+        position: relative;
+        width: 19.2rem;
+        padding: 6px;
+    padding-left:20px;
+    padding-right: 40px;
+    font-size: 35px;
+   line-height: 43px;
+     margin-top: 2.8rem;
+  
+      
+    }
+    .topics{
+ width: 23rem;
+      font-size:20px;
+   
+    }
+
+.container{
+    display: grid;
+    grid-template-columns:repeat(3, 3fr);
+    gap: 10px;
+grid-template-rows: repeat(2, 3fr) ;
+    padding: 100px 0px 0px 0px;
+    
+}
+
+header
+{
+   margin-right: 7%;
+    padding-bottom: 6rem;
+}
+.header{
+    max-width: 30rem;
+}
+.icon{
+    position: absolute;
+    margin-top: 1.35rem;
+       margin-left: 1.7rem;
+   }
+}
+  
